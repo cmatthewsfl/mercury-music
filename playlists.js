@@ -51,31 +51,33 @@ window.MERCURY_PLAYLISTS = [
     ]
   },
   {
-    "title": "Rehab: Pump Up",
+    "title": "Graffiti the World",
     "emoji": "🔥",
-    "category": "Rehab",
-    "description": "Graffiti the World fuel — when Cindy needs pumped up and moving.",
+    "category": "Albums",
+    "description": "Rehab — Graffiti the World (Cindy selection), in selected album order.",
     "url": "https://www.youtube.com/playlist?list=PLPyUY3QkbS6c",
     "pinned": true,
     "tags": [
+      "album",
       "rehab",
-      "pump up",
       "graffiti the world",
-      "energy"
+      "2005",
+      "cindy selection"
     ]
   },
   {
-    "title": "Rehab: Pissed Off",
+    "title": "Southern Discomfort",
     "emoji": "💥",
-    "category": "Rehab",
-    "description": "Southern Discomfort fuel — when Cindy is pissed off and needs somewhere for that energy to go.",
+    "category": "Albums",
+    "description": "Rehab — Southern Discomfort (Cindy selection), in selected album order.",
     "url": "https://www.youtube.com/playlist?list=PLHmqJqnpsW3w",
     "pinned": false,
     "tags": [
+      "album",
       "rehab",
       "southern discomfort",
-      "anger",
-      "release"
+      "2000",
+      "cindy selection"
     ]
   },
   {
