@@ -146,5 +146,33 @@ window.MERCURY_PLAYLISTS = [
       "all about chemistry",
       "2001"
     ]
+  },
+  {
+    "title": "The Better Life",
+    "emoji": "⚡",
+    "category": "Albums",
+    "description": "3 Doors Down — The Better Life (2000), original album sequence.",
+    "url": "https://www.youtube.com/playlist?list=PLdT3unDXiVCc",
+    "pinned": false,
+    "tags": [
+      "album",
+      "3 doors down",
+      "the better life",
+      "2000"
+    ]
+  },
+  {
+    "title": "Seventeen Days",
+    "emoji": "🌒",
+    "category": "Albums",
+    "description": "3 Doors Down — Seventeen Days (2005), original album sequence.",
+    "url": "https://www.youtube.com/playlist?list=PLZXNoH3N-s5g",
+    "pinned": false,
+    "tags": [
+      "album",
+      "3 doors down",
+      "seventeen days",
+      "2005"
+    ]
   }
 ];
