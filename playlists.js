@@ -266,5 +266,89 @@ window.MERCURY_PLAYLISTS = [
       "2000",
       "exploration"
     ]
+  },
+  {
+    "title": "The Woman in Me",
+    "emoji": "🤠",
+    "category": "Albums",
+    "description": "Shania Twain — The Woman in Me (1995), full album. Country album donor.",
+    "url": "https://www.youtube.com/playlist?list=PLD_Hqra7YBao",
+    "pinned": false,
+    "tags": [
+      "album",
+      "country",
+      "shania twain",
+      "1995"
+    ]
+  },
+  {
+    "title": "Come On Over",
+    "emoji": "🤠",
+    "category": "Albums",
+    "description": "Shania Twain — Come On Over (1997), full album. Country album donor.",
+    "url": "https://www.youtube.com/playlist?list=PLSV3DIM4Dtp4",
+    "pinned": false,
+    "tags": [
+      "album",
+      "country",
+      "shania twain",
+      "1997"
+    ]
+  },
+  {
+    "title": "Toby Keith",
+    "emoji": "🤠",
+    "category": "Albums",
+    "description": "Toby Keith — Toby Keith (1993), full album. Country album donor.",
+    "url": "https://www.youtube.com/playlist?list=PLO9oVlqHlzxo",
+    "pinned": false,
+    "tags": [
+      "album",
+      "country",
+      "toby keith",
+      "1993"
+    ]
+  },
+  {
+    "title": "Boomtown",
+    "emoji": "🤠",
+    "category": "Albums",
+    "description": "Toby Keith — Boomtown (1994), full album. Country album donor.",
+    "url": "https://www.youtube.com/playlist?list=PLEH_O2zbHL_s",
+    "pinned": false,
+    "tags": [
+      "album",
+      "country",
+      "toby keith",
+      "1994"
+    ]
+  },
+  {
+    "title": "Blue Moon",
+    "emoji": "🤠",
+    "category": "Albums",
+    "description": "Toby Keith — Blue Moon (1996), full album. Country album donor.",
+    "url": "https://www.youtube.com/playlist?list=PLOaoAgHRblPI",
+    "pinned": false,
+    "tags": [
+      "album",
+      "country",
+      "toby keith",
+      "1996"
+    ]
+  },
+  {
+    "title": "Dream Walkin'",
+    "emoji": "🤠",
+    "category": "Albums",
+    "description": "Toby Keith — Dream Walkin' (1997), full album. Country album donor.",
+    "url": "https://www.youtube.com/playlist?list=PLZ2EKKeVZuRI",
+    "pinned": false,
+    "tags": [
+      "album",
+      "country",
+      "toby keith",
+      "1997"
+    ]
   }
 ];
