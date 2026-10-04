@@ -1,0 +1,47 @@
+window.MERCURY_PLAYLISTS = [
+  {
+    "title": "Mercury DJ",
+    "emoji": "🎧",
+    "category": "Live",
+    "description": "The running jukebox. Mercury adds songs here while you listen.",
+    "url": "https://www.youtube.com/playlist?list=PLMNFOW9CWafg",
+    "pinned": true,
+    "tags": ["dj","live","mixed"]
+  },
+  {
+    "title": "Fire in the Engine",
+    "emoji": "🔥",
+    "category": "Drive",
+    "description": "Driving, working, moving, and getting the hell on with it.",
+    "url": "https://www.youtube.com/playlist?list=PLeICG14oerGU",
+    "pinned": true,
+    "tags": ["drive","rock","energy"]
+  },
+  {
+    "title": "Soft Landing",
+    "emoji": "🌙",
+    "category": "Soft",
+    "description": "A little ache, a little soul, and enough motion to keep going.",
+    "url": "https://www.youtube.com/playlist?list=PLGBaJJgtuekQ",
+    "pinned": false,
+    "tags": ["soft","soul","calm"]
+  },
+  {
+    "title": "Country Love",
+    "emoji": "❤️",
+    "category": "Country",
+    "description": "Warm country love songs.",
+    "url": "https://www.youtube.com/playlist?list=PLYwZtiTg9UU0",
+    "pinned": false,
+    "tags": ["country","love"]
+  },
+  {
+    "title": "Rehab Run",
+    "emoji": "🧪",
+    "category": "Rehab",
+    "description": "Rehab-heavy Cindy fuel.",
+    "url": "https://www.youtube.com/playlist?list=PLPyUY3QkbS6c",
+    "pinned": true,
+    "tags": ["rehab","throwback","drive"]
+  }
+];
