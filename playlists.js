@@ -221,5 +221,50 @@ window.MERCURY_PLAYLISTS = [
       "2003",
       "full album"
     ]
+  },
+  {
+    "title": "Eggshells",
+    "emoji": "🥚",
+    "category": "Albums",
+    "description": "Shawn Mullins — Eggshells (1996), original album sequence. Exploration album.",
+    "url": "https://www.youtube.com/playlist?list=PLeSsf5Vu7E7g",
+    "pinned": false,
+    "tags": [
+      "album",
+      "shawn mullins",
+      "eggshells",
+      "1996",
+      "exploration"
+    ]
+  },
+  {
+    "title": "Soul's Core",
+    "emoji": "🌙",
+    "category": "Albums",
+    "description": "Shawn Mullins — Soul's Core (1998), original album sequence. Exploration album.",
+    "url": "https://www.youtube.com/playlist?list=PLCbQusJXZxA4",
+    "pinned": false,
+    "tags": [
+      "album",
+      "shawn mullins",
+      "soul's core",
+      "1998",
+      "exploration"
+    ]
+  },
+  {
+    "title": "Beneath the Velvet Sun",
+    "emoji": "☀️",
+    "category": "Albums",
+    "description": "Shawn Mullins — Beneath the Velvet Sun (2000), original album sequence. Exploration album.",
+    "url": "https://www.youtube.com/playlist?list=PLaB5BHUSdJ38",
+    "pinned": false,
+    "tags": [
+      "album",
+      "shawn mullins",
+      "beneath the velvet sun",
+      "2000",
+      "exploration"
+    ]
   }
 ];
