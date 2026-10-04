@@ -66,7 +66,7 @@
     </section>
     <footer>Built to grow with the tree. New playlists can be added without changing the layout.</footer>
   </main>
-  <script src="playlists.js"></script>
+  <script src="playlists.js?v=20261004-2"></script>
   <script>
     const playlists=window.MERCURY_PLAYLISTS||[],search=document.querySelector('#search'),chips=document.querySelector('#chips'),pinnedEl=document.querySelector('#pinned'),allEl=document.querySelector('#all'),empty=document.querySelector('#empty'),pinnedSection=document.querySelector('#pinnedSection');let activeCategory='All';
     const categories=['All',...new Set(playlists.map(p=>p.category))];
