@@ -51,16 +51,31 @@ window.MERCURY_PLAYLISTS = [
     ]
   },
   {
-    "title": "Rehab Run",
-    "emoji": "🧪",
+    "title": "Rehab: Pump Up",
+    "emoji": "🔥",
     "category": "Rehab",
-    "description": "Rehab-heavy Cindy fuel.",
+    "description": "Graffiti the World fuel — when Cindy needs pumped up and moving.",
     "url": "https://www.youtube.com/playlist?list=PLPyUY3QkbS6c",
     "pinned": true,
     "tags": [
       "rehab",
-      "throwback",
-      "drive"
+      "pump up",
+      "graffiti the world",
+      "energy"
+    ]
+  },
+  {
+    "title": "Rehab: Pissed Off",
+    "emoji": "💥",
+    "category": "Rehab",
+    "description": "Southern Discomfort fuel — when Cindy is pissed off and needs somewhere for that energy to go.",
+    "url": "https://www.youtube.com/playlist?list=PLHmqJqnpsW3w",
+    "pinned": false,
+    "tags": [
+      "rehab",
+      "southern discomfort",
+      "anger",
+      "release"
     ]
   },
   {
