@@ -176,5 +176,50 @@ window.MERCURY_PLAYLISTS = [
       "seventeen days",
       "2005"
     ]
+  },
+  {
+    "title": "Third Eye Blind",
+    "emoji": "👁️",
+    "category": "Albums",
+    "description": "Third Eye Blind — Third Eye Blind (1997), original album sequence.",
+    "url": "https://www.youtube.com/playlist?list=PLKkTl6y26jHM",
+    "pinned": false,
+    "tags": [
+      "album",
+      "third eye blind",
+      "self-titled",
+      "1997",
+      "full album"
+    ]
+  },
+  {
+    "title": "Blue",
+    "emoji": "🔵",
+    "category": "Albums",
+    "description": "Third Eye Blind — Blue (1999), original album sequence.",
+    "url": "https://www.youtube.com/playlist?list=PLHo__OX8QMWQ",
+    "pinned": false,
+    "tags": [
+      "album",
+      "third eye blind",
+      "blue",
+      "1999",
+      "full album"
+    ]
+  },
+  {
+    "title": "Out of the Vein",
+    "emoji": "🫀",
+    "category": "Albums",
+    "description": "Third Eye Blind — Out of the Vein (2003), original album sequence.",
+    "url": "https://www.youtube.com/playlist?list=PLNKTuGEiEyvw",
+    "pinned": false,
+    "tags": [
+      "album",
+      "third eye blind",
+      "out of the vein",
+      "2003",
+      "full album"
+    ]
   }
 ];
