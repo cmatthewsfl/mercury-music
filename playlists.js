@@ -6,7 +6,11 @@ window.MERCURY_PLAYLISTS = [
     "description": "The running jukebox. Mercury adds songs here while you listen.",
     "url": "https://www.youtube.com/playlist?list=PLMNFOW9CWafg",
     "pinned": true,
-    "tags": ["dj","live","mixed"]
+    "tags": [
+      "dj",
+      "live",
+      "mixed"
+    ]
   },
   {
     "title": "Fire in the Engine",
@@ -15,7 +19,11 @@ window.MERCURY_PLAYLISTS = [
     "description": "Driving, working, moving, and getting the hell on with it.",
     "url": "https://www.youtube.com/playlist?list=PLeICG14oerGU",
     "pinned": true,
-    "tags": ["drive","rock","energy"]
+    "tags": [
+      "drive",
+      "rock",
+      "energy"
+    ]
   },
   {
     "title": "Soft Landing",
@@ -24,7 +32,11 @@ window.MERCURY_PLAYLISTS = [
     "description": "A little ache, a little soul, and enough motion to keep going.",
     "url": "https://www.youtube.com/playlist?list=PLGBaJJgtuekQ",
     "pinned": false,
-    "tags": ["soft","soul","calm"]
+    "tags": [
+      "soft",
+      "soul",
+      "calm"
+    ]
   },
   {
     "title": "Country Love",
@@ -33,7 +45,10 @@ window.MERCURY_PLAYLISTS = [
     "description": "Warm country love songs.",
     "url": "https://www.youtube.com/playlist?list=PLYwZtiTg9UU0",
     "pinned": false,
-    "tags": ["country","love"]
+    "tags": [
+      "country",
+      "love"
+    ]
   },
   {
     "title": "Rehab Run",
@@ -42,6 +57,36 @@ window.MERCURY_PLAYLISTS = [
     "description": "Rehab-heavy Cindy fuel.",
     "url": "https://www.youtube.com/playlist?list=PLPyUY3QkbS6c",
     "pinned": true,
-    "tags": ["rehab","throwback","drive"]
+    "tags": [
+      "rehab",
+      "throwback",
+      "drive"
+    ]
+  },
+  {
+    "title": "Days of Future Passed",
+    "emoji": "🌅",
+    "category": "Albums",
+    "description": "The Moody Blues — Days of Future Passed, in album sequence.",
+    "url": "https://www.youtube.com/playlist?list=PLXj8yd5X5BE8",
+    "pinned": false,
+    "tags": [
+      "album",
+      "moody blues",
+      "full album"
+    ]
+  },
+  {
+    "title": "The Rhythm of the Saints",
+    "emoji": "🥁",
+    "category": "Albums",
+    "description": "Paul Simon — The Rhythm of the Saints, in album sequence.",
+    "url": "https://www.youtube.com/playlist?list=PLAyHIkc430gI",
+    "pinned": false,
+    "tags": [
+      "album",
+      "paul simon",
+      "full album"
+    ]
   }
 ];
