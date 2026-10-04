@@ -103,5 +103,48 @@ window.MERCURY_PLAYLISTS = [
       "paul simon",
       "full album"
     ]
+  },
+  {
+    "title": "Great Divide",
+    "emoji": "🛣️",
+    "category": "Albums",
+    "description": "Semisonic — Great Divide (1996), original album sequence.",
+    "url": "https://www.youtube.com/playlist?list=PLPtiRrBDS4NU",
+    "pinned": false,
+    "tags": [
+      "album",
+      "semisonic",
+      "great divide",
+      "1996"
+    ]
+  },
+  {
+    "title": "Feeling Strangely Fine",
+    "emoji": "✨",
+    "category": "Albums",
+    "description": "Semisonic — Feeling Strangely Fine (1998), original album sequence.",
+    "url": "https://www.youtube.com/playlist?list=PLSawEavXz2QY",
+    "pinned": false,
+    "tags": [
+      "album",
+      "semisonic",
+      "feeling strangely fine",
+      "1998",
+      "secret smile"
+    ]
+  },
+  {
+    "title": "All About Chemistry",
+    "emoji": "⚗️",
+    "category": "Albums",
+    "description": "Semisonic — All About Chemistry (2001), original album sequence.",
+    "url": "https://www.youtube.com/playlist?list=PLFyDaxu32GY0",
+    "pinned": false,
+    "tags": [
+      "album",
+      "semisonic",
+      "all about chemistry",
+      "2001"
+    ]
   }
 ];
