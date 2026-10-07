@@ -361,4 +361,41 @@ window.MERCURY_PLAYLISTS = [
     "pinned": false,
     "tags": ["album", "country", "toby keith", "1999"]
   }
+,
+  {
+    "title": "Strait Country",
+    "emoji": "🤠",
+    "category": "Albums",
+    "description": "George Strait — Strait Country (1981), original album sequence. Country album donor.",
+    "url": "https://www.youtube.com/playlist?list=PLbS7H5dePvl8",
+    "pinned": false,
+    "tags": ["album", "country", "george strait", "1981"]
+  },
+  {
+    "title": "Strait from the Heart",
+    "emoji": "🤠",
+    "category": "Albums",
+    "description": "George Strait — Strait from the Heart (1982), original album sequence. Country album donor.",
+    "url": "https://www.youtube.com/playlist?list=PLFVognO6JsGY",
+    "pinned": false,
+    "tags": ["album", "country", "george strait", "1982"]
+  },
+  {
+    "title": "Right or Wrong",
+    "emoji": "🤠",
+    "category": "Albums",
+    "description": "George Strait — Right or Wrong (1983), original album sequence. Country album donor.",
+    "url": "https://www.youtube.com/playlist?list=PLGPAkb3FF06k",
+    "pinned": false,
+    "tags": ["album", "country", "george strait", "1983"]
+  },
+  {
+    "title": "Does Fort Worth Ever Cross Your Mind",
+    "emoji": "🤠",
+    "category": "Albums",
+    "description": "George Strait — Does Fort Worth Ever Cross Your Mind (1984), original album sequence. Country album donor.",
+    "url": "https://www.youtube.com/playlist?list=PLWk7bd6fPJK4",
+    "pinned": false,
+    "tags": ["album", "country", "george strait", "1984"]
+  }
 ];
