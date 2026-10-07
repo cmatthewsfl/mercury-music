@@ -6,6 +6,359 @@ window.MERCURY_PLAYLISTS = [
     "description": "The running jukebox. Mercury adds songs here while you listen.",
     "url": "https://www.youtube.com/playlist?list=PLMNFOW9CWafg",
     "pinned": true,
-    "tags": ["dj","live","mixed"]
+    "tags": [
+      "dj",
+      "live",
+      "mixed"
+    ]
+  },
+  {
+    "title": "Fire in the Engine",
+    "emoji": "🔥",
+    "category": "Drive",
+    "description": "Driving, working, moving, and getting the hell on with it.",
+    "url": "https://www.youtube.com/playlist?list=PLeICG14oerGU",
+    "pinned": true,
+    "tags": [
+      "drive",
+      "rock",
+      "energy"
+    ]
+  },
+  {
+    "title": "Soft Landing",
+    "emoji": "🌙",
+    "category": "Soft",
+    "description": "A little ache, a little soul, and enough motion to keep going.",
+    "url": "https://www.youtube.com/playlist?list=PLGBaJJgtuekQ",
+    "pinned": false,
+    "tags": [
+      "soft",
+      "soul",
+      "calm"
+    ]
+  },
+  {
+    "title": "Country Love",
+    "emoji": "❤️",
+    "category": "Country",
+    "description": "Warm country love songs.",
+    "url": "https://www.youtube.com/playlist?list=PLYwZtiTg9UU0",
+    "pinned": false,
+    "tags": [
+      "country",
+      "love"
+    ]
+  },
+  {
+    "title": "Graffiti the World",
+    "emoji": "🔥",
+    "category": "Albums",
+    "description": "Rehab — Graffiti the World (Cindy selection), in selected album order.",
+    "url": "https://www.youtube.com/playlist?list=PLPyUY3QkbS6c",
+    "pinned": true,
+    "tags": [
+      "album",
+      "rehab",
+      "graffiti the world",
+      "2005",
+      "cindy selection"
+    ]
+  },
+  {
+    "title": "Southern Discomfort",
+    "emoji": "💥",
+    "category": "Albums",
+    "description": "Rehab — Southern Discomfort (Cindy selection), in selected album order.",
+    "url": "https://www.youtube.com/playlist?list=PLHmqJqnpsW3w",
+    "pinned": false,
+    "tags": [
+      "album",
+      "rehab",
+      "southern discomfort",
+      "2000",
+      "cindy selection"
+    ]
+  },
+  {
+    "title": "Days of Future Passed",
+    "emoji": "🌅",
+    "category": "Albums",
+    "description": "The Moody Blues — Days of Future Passed, in album sequence.",
+    "url": "https://www.youtube.com/playlist?list=PLXj8yd5X5BE8",
+    "pinned": false,
+    "tags": [
+      "album",
+      "moody blues",
+      "full album"
+    ]
+  },
+  {
+    "title": "The Rhythm of the Saints",
+    "emoji": "🥁",
+    "category": "Albums",
+    "description": "Paul Simon — The Rhythm of the Saints, in album sequence.",
+    "url": "https://www.youtube.com/playlist?list=PLAyHIkc430gI",
+    "pinned": false,
+    "tags": [
+      "album",
+      "paul simon",
+      "full album"
+    ]
+  },
+  {
+    "title": "Great Divide",
+    "emoji": "🛣️",
+    "category": "Albums",
+    "description": "Semisonic — Great Divide (1996), original album sequence.",
+    "url": "https://www.youtube.com/playlist?list=PLPtiRrBDS4NU",
+    "pinned": false,
+    "tags": [
+      "album",
+      "semisonic",
+      "great divide",
+      "1996"
+    ]
+  },
+  {
+    "title": "Feeling Strangely Fine",
+    "emoji": "✨",
+    "category": "Albums",
+    "description": "Semisonic — Feeling Strangely Fine (1998), original album sequence.",
+    "url": "https://www.youtube.com/playlist?list=PLSawEavXz2QY",
+    "pinned": false,
+    "tags": [
+      "album",
+      "semisonic",
+      "feeling strangely fine",
+      "1998",
+      "secret smile"
+    ]
+  },
+  {
+    "title": "All About Chemistry",
+    "emoji": "⚗️",
+    "category": "Albums",
+    "description": "Semisonic — All About Chemistry (2001), original album sequence.",
+    "url": "https://www.youtube.com/playlist?list=PLFyDaxu32GY0",
+    "pinned": false,
+    "tags": [
+      "album",
+      "semisonic",
+      "all about chemistry",
+      "2001"
+    ]
+  },
+  {
+    "title": "The Better Life",
+    "emoji": "⚡",
+    "category": "Albums",
+    "description": "3 Doors Down — The Better Life (2000), original album sequence.",
+    "url": "https://www.youtube.com/playlist?list=PLdT3unDXiVCc",
+    "pinned": false,
+    "tags": [
+      "album",
+      "3 doors down",
+      "the better life",
+      "2000"
+    ]
+  },
+  {
+    "title": "Seventeen Days",
+    "emoji": "🌒",
+    "category": "Albums",
+    "description": "3 Doors Down — Seventeen Days (2005), original album sequence.",
+    "url": "https://www.youtube.com/playlist?list=PLZXNoH3N-s5g",
+    "pinned": false,
+    "tags": [
+      "album",
+      "3 doors down",
+      "seventeen days",
+      "2005"
+    ]
+  },
+  {
+    "title": "Third Eye Blind",
+    "emoji": "👁️",
+    "category": "Albums",
+    "description": "Third Eye Blind — Third Eye Blind (1997), original album sequence.",
+    "url": "https://www.youtube.com/playlist?list=PLKkTl6y26jHM",
+    "pinned": false,
+    "tags": [
+      "album",
+      "third eye blind",
+      "self-titled",
+      "1997",
+      "full album"
+    ]
+  },
+  {
+    "title": "Blue",
+    "emoji": "🔵",
+    "category": "Albums",
+    "description": "Third Eye Blind — Blue (1999), original album sequence.",
+    "url": "https://www.youtube.com/playlist?list=PLHo__OX8QMWQ",
+    "pinned": false,
+    "tags": [
+      "album",
+      "third eye blind",
+      "blue",
+      "1999",
+      "full album"
+    ]
+  },
+  {
+    "title": "Out of the Vein",
+    "emoji": "🫀",
+    "category": "Albums",
+    "description": "Third Eye Blind — Out of the Vein (2003), original album sequence.",
+    "url": "https://www.youtube.com/playlist?list=PLNKTuGEiEyvw",
+    "pinned": false,
+    "tags": [
+      "album",
+      "third eye blind",
+      "out of the vein",
+      "2003",
+      "full album"
+    ]
+  },
+  {
+    "title": "Eggshells",
+    "emoji": "🥚",
+    "category": "Albums",
+    "description": "Shawn Mullins — Eggshells (1996), original album sequence. Exploration album.",
+    "url": "https://www.youtube.com/playlist?list=PLeSsf5Vu7E7g",
+    "pinned": false,
+    "tags": [
+      "album",
+      "shawn mullins",
+      "eggshells",
+      "1996",
+      "exploration"
+    ]
+  },
+  {
+    "title": "Soul's Core",
+    "emoji": "🌙",
+    "category": "Albums",
+    "description": "Shawn Mullins — Soul's Core (1998), original album sequence. Exploration album.",
+    "url": "https://www.youtube.com/playlist?list=PLCbQusJXZxA4",
+    "pinned": false,
+    "tags": [
+      "album",
+      "shawn mullins",
+      "soul's core",
+      "1998",
+      "exploration"
+    ]
+  },
+  {
+    "title": "Beneath the Velvet Sun",
+    "emoji": "☀️",
+    "category": "Albums",
+    "description": "Shawn Mullins — Beneath the Velvet Sun (2000), original album sequence. Exploration album.",
+    "url": "https://www.youtube.com/playlist?list=PLaB5BHUSdJ38",
+    "pinned": false,
+    "tags": [
+      "album",
+      "shawn mullins",
+      "beneath the velvet sun",
+      "2000",
+      "exploration"
+    ]
+  },
+  {
+    "title": "The Woman in Me",
+    "emoji": "🤠",
+    "category": "Albums",
+    "description": "Shania Twain — The Woman in Me (1995), full album. Country album donor.",
+    "url": "https://www.youtube.com/playlist?list=PLD_Hqra7YBao",
+    "pinned": false,
+    "tags": [
+      "album",
+      "country",
+      "shania twain",
+      "1995"
+    ]
+  },
+  {
+    "title": "Come On Over",
+    "emoji": "🤠",
+    "category": "Albums",
+    "description": "Shania Twain — Come On Over (1997), full album. Country album donor.",
+    "url": "https://www.youtube.com/playlist?list=PLSV3DIM4Dtp4",
+    "pinned": false,
+    "tags": [
+      "album",
+      "country",
+      "shania twain",
+      "1997"
+    ]
+  },
+  {
+    "title": "Toby Keith",
+    "emoji": "🤠",
+    "category": "Albums",
+    "description": "Toby Keith — Toby Keith (1993), full album. Country album donor.",
+    "url": "https://www.youtube.com/playlist?list=PLO9oVlqHlzxo",
+    "pinned": false,
+    "tags": [
+      "album",
+      "country",
+      "toby keith",
+      "1993"
+    ]
+  },
+  {
+    "title": "Boomtown",
+    "emoji": "🤠",
+    "category": "Albums",
+    "description": "Toby Keith — Boomtown (1994), full album. Country album donor.",
+    "url": "https://www.youtube.com/playlist?list=PLEH_O2zbHL_s",
+    "pinned": false,
+    "tags": [
+      "album",
+      "country",
+      "toby keith",
+      "1994"
+    ]
+  },
+  {
+    "title": "Blue Moon",
+    "emoji": "🤠",
+    "category": "Albums",
+    "description": "Toby Keith — Blue Moon (1996), full album. Country album donor.",
+    "url": "https://www.youtube.com/playlist?list=PLOaoAgHRblPI",
+    "pinned": false,
+    "tags": [
+      "album",
+      "country",
+      "toby keith",
+      "1996"
+    ]
+  },
+  {
+    "title": "Dream Walkin'",
+    "emoji": "🤠",
+    "category": "Albums",
+    "description": "Toby Keith — Dream Walkin' (1997), full album. Country album donor.",
+    "url": "https://www.youtube.com/playlist?list=PLZ2EKKeVZuRI",
+    "pinned": false,
+    "tags": [
+      "album",
+      "country",
+      "toby keith",
+      "1997"
+    ]
+  }
+,
+  {
+    "title": "How Do You Like Me Now?!",
+    "emoji": "🤠",
+    "category": "Albums",
+    "description": "Toby Keith — How Do You Like Me Now?! (1999), full album. Country album donor.",
+    "url": "https://www.youtube.com/playlist?list=PLVDwoO-vHtvU",
+    "pinned": false,
+    "tags": ["album", "country", "toby keith", "1999"]
   }
 ];
