@@ -50,13 +50,14 @@
     <header>
       <div class="eyebrow">Cindy + Mercury</div>
       <h1>Mercury Music</h1>
-      <div class="sub">One door to every playlist. Search by mood, tap a card, and let YouTube take over.</div>
+      <div class="sub">One door to every playlist. Follow the day, change your state, or discover something unexpected.</div>
     </header>
     <div class="toolbar">
       <input id="search" class="search" type="search" placeholder="Search playlists…" autocomplete="off">
       <div id="chips" class="chips"></div>
     </div>
     <div id="player" class="player"><div id="nowPlaying" style="margin-bottom:10px;font-weight:800"></div><iframe id="youtubePlayer" title="Mercury playlist player" allow="autoplay; encrypted-media; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><p><a id="youtubeLink" target="_blank" rel="noopener">Open in YouTube ↗</a></p></div>
+    <section id="journeys"><div class="section-head"><h2>Choose your door</h2></div><div id="journeyDoors" class="grid"></div><p class="sub" style="font-size:.85rem">A journey can accompany the day, help you change gears, or begin somewhere undefined. These are listening paths, not prescriptions.</p></section>
     <section id="pinnedSection">
       <div class="section-head"><h2>Pinned</h2><div id="pinnedCount" class="count"></div></div>
       <div id="pinned" class="grid"></div>
@@ -75,6 +76,13 @@
     function makeCard(p){const a=document.createElement('a');a.className='card';a.href=p.url;a.addEventListener('click',e=>{const id=new URL(p.url).searchParams.get('list');if(!id)return;e.preventDefault();document.querySelector('#youtubePlayer').src='https://www.youtube-nocookie.com/embed/videoseries?list='+encodeURIComponent(id);document.querySelector('#nowPlaying').textContent='Now playing: '+p.title;document.querySelector('#youtubeLink').href=p.url;document.querySelector('#player').classList.add('active');document.querySelector('#player').scrollIntoView({behavior:'smooth',block:'start'});});a.innerHTML=`<div class="emoji">${p.emoji||'🎵'}</div><div class="title">${p.title}</div><div class="desc">${p.description||''}</div><div class="meta"><div class="tag">${p.category||'Playlist'}</div><div class="play">PLAY ↗</div></div>`;return a}
     function renderChips(){chips.innerHTML='';categories.forEach(cat=>{const b=document.createElement('button');b.className='chip'+(cat===activeCategory?' active':'');b.textContent=cat;b.addEventListener('click',()=>{activeCategory=cat;renderChips();render()});chips.appendChild(b)})}
     function render(){const q=search.value.trim().toLowerCase();const filtered=playlists.filter(p=>{const hay=[p.title,p.description,p.category,...(p.tags||[])].join(' ').toLowerCase();return (activeCategory==='All'||p.category===activeCategory)&&hay.includes(q)});const pins=filtered.filter(p=>p.pinned);pinnedEl.innerHTML='';allEl.innerHTML='';pins.forEach(p=>pinnedEl.appendChild(makeCard(p)));filtered.forEach(p=>allEl.appendChild(makeCard(p)));pinnedSection.style.display=pins.length?'':'none';empty.style.display=filtered.length?'none':'block';document.querySelector('#pinnedCount').textContent=pins.length?String(pins.length):'';document.querySelector('#allCount').textContent=String(filtered.length)}
+    const doors=[
+      {name:"The Day's Passage",emoji:"🌅",description:"A musical arc from ignition to evening. Follow the day, or enter anywhere.",category:"Day's Passage"},
+      {name:"Change My State",emoji:"⚡",description:"Meet the feeling you're in, then build a bridge toward the energy you need.",category:"Change My State"},
+      {name:"The Undefined",emoji:"✨",description:"Unexpected discoveries, one-offs, and playlists that earn their own branches.",category:"The Undefined"}
+    ];
+    const doorHost=document.querySelector('#journeyDoors');
+    doors.forEach(d=>{const b=document.createElement('button');b.className='card';b.style.textAlign='left';b.style.cursor='pointer';b.innerHTML='<div class="emoji">'+d.emoji+'</div><div class="title">'+d.name+'</div><div class="desc">'+d.description+'</div><div class="meta"><span class="tag">EXPLORE</span></div>';b.addEventListener('click',()=>{activeCategory=d.category;search.value='';if(!categories.includes(d.category)){categories.push(d.category)}renderChips();render();document.querySelector('#all').scrollIntoView({behavior:'smooth',block:'start'})});doorHost.appendChild(b)});
     search.addEventListener('input',render);renderChips();render();
     if('serviceWorker'in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}))}
   </script>
