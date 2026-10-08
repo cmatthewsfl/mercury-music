@@ -26,6 +26,7 @@
     .chips::-webkit-scrollbar{display:none}
     .chip{border:1px solid var(--line);background:var(--panel);color:var(--muted);padding:9px 13px;border-radius:999px;font-weight:750;white-space:nowrap;cursor:pointer}
     .chip.active{background:var(--text);color:#0b0d12;border-color:var(--text)}
+    .player{display:none;margin:14px 0 22px;padding:14px;border:1px solid var(--line);border-radius:18px;background:var(--panel)}.player.active{display:block}.player iframe{display:block;width:100%;aspect-ratio:16/9;border:0;border-radius:12px}.player a{color:var(--accent)}
     section{margin-top:24px}
     .section-head{display:flex;justify-content:space-between;align-items:end;margin:0 2px 12px}
     h2{font-size:1.02rem;margin:0;letter-spacing:.02em}
@@ -55,6 +56,7 @@
       <input id="search" class="search" type="search" placeholder="Search playlists…" autocomplete="off">
       <div id="chips" class="chips"></div>
     </div>
+    <div id="player" class="player"><div id="nowPlaying" style="margin-bottom:10px;font-weight:800"></div><iframe id="youtubePlayer" title="Mercury playlist player" allow="autoplay; encrypted-media; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><p><a id="youtubeLink" target="_blank" rel="noopener">Open in YouTube ↗</a></p></div>
     <section id="pinnedSection">
       <div class="section-head"><h2>Pinned</h2><div id="pinnedCount" class="count"></div></div>
       <div id="pinned" class="grid"></div>
@@ -66,11 +68,11 @@
     </section>
     <footer>Built to grow with the tree. New playlists can be added without changing the layout.</footer>
   </main>
-  <script src="playlists.js?v=20261004-2"></script>
+  <script src="playlists.js?v=20261008-1"></script>
   <script>
     const playlists=window.MERCURY_PLAYLISTS||[],search=document.querySelector('#search'),chips=document.querySelector('#chips'),pinnedEl=document.querySelector('#pinned'),allEl=document.querySelector('#all'),empty=document.querySelector('#empty'),pinnedSection=document.querySelector('#pinnedSection');let activeCategory='All';
     const categories=['All',...new Set(playlists.map(p=>p.category))];
-    function makeCard(p){const a=document.createElement('a');a.className='card';a.href=p.url;a.target='_blank';a.rel='noopener';a.innerHTML=`<div class="emoji">${p.emoji||'🎵'}</div><div class="title">${p.title}</div><div class="desc">${p.description||''}</div><div class="meta"><div class="tag">${p.category||'Playlist'}</div><div class="play">PLAY ↗</div></div>`;return a}
+    function makeCard(p){const a=document.createElement('a');a.className='card';a.href=p.url;a.addEventListener('click',e=>{const id=new URL(p.url).searchParams.get('list');if(!id)return;e.preventDefault();document.querySelector('#youtubePlayer').src='https://www.youtube-nocookie.com/embed/videoseries?list='+encodeURIComponent(id);document.querySelector('#nowPlaying').textContent='Now playing: '+p.title;document.querySelector('#youtubeLink').href=p.url;document.querySelector('#player').classList.add('active');document.querySelector('#player').scrollIntoView({behavior:'smooth',block:'start'});});a.innerHTML=`<div class="emoji">${p.emoji||'🎵'}</div><div class="title">${p.title}</div><div class="desc">${p.description||''}</div><div class="meta"><div class="tag">${p.category||'Playlist'}</div><div class="play">PLAY ↗</div></div>`;return a}
     function renderChips(){chips.innerHTML='';categories.forEach(cat=>{const b=document.createElement('button');b.className='chip'+(cat===activeCategory?' active':'');b.textContent=cat;b.addEventListener('click',()=>{activeCategory=cat;renderChips();render()});chips.appendChild(b)})}
     function render(){const q=search.value.trim().toLowerCase();const filtered=playlists.filter(p=>{const hay=[p.title,p.description,p.category,...(p.tags||[])].join(' ').toLowerCase();return (activeCategory==='All'||p.category===activeCategory)&&hay.includes(q)});const pins=filtered.filter(p=>p.pinned);pinnedEl.innerHTML='';allEl.innerHTML='';pins.forEach(p=>pinnedEl.appendChild(makeCard(p)));filtered.forEach(p=>allEl.appendChild(makeCard(p)));pinnedSection.style.display=pins.length?'':'none';empty.style.display=filtered.length?'none':'block';document.querySelector('#pinnedCount').textContent=pins.length?String(pins.length):'';document.querySelector('#allCount').textContent=String(filtered.length)}
     search.addEventListener('input',render);renderChips();render();
