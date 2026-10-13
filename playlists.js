@@ -397,5 +397,14 @@ window.MERCURY_PLAYLISTS = [
     "url": "https://www.youtube.com/playlist?list=PLWk7bd6fPJK4",
     "pinned": false,
     "tags": ["album", "country", "george strait", "1984"]
+  }  ,
+  {
+    "title": "Something Special",
+    "emoji": "🤠",
+    "category": "Albums",
+    "description": "George Strait — Something Special (1985), original album sequence. Country album donor.",
+    "url": "https://www.youtube.com/playlist?list=PLTRc0cWXPa3E",
+    "pinned": false,
+    "tags": ["album", "country", "george strait", "1985"]
   }
 ];
