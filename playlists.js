@@ -406,5 +406,20 @@ window.MERCURY_PLAYLISTS = [
     "url": "https://www.youtube.com/playlist?list=PLTRc0cWXPa3E",
     "pinned": false,
     "tags": ["album", "country", "george strait", "1985"]
+  },
+  {
+    "title": "Tragic Kingdom",
+    "emoji": "🕸️",
+    "category": "Albums",
+    "description": "No Doubt — Tragic Kingdom (1995), original 14-track album sequence.",
+    "url": "https://www.youtube.com/playlist?list=OLAK5uy_ld5RJrDQIhVAyI1q4i5tn8K_U77MXA8As",
+    "pinned": false,
+    "tags": [
+      "album",
+      "no doubt",
+      "tragic kingdom",
+      "1995",
+      "full album"
+    ]
   }
 ];
