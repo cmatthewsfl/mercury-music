@@ -421,5 +421,149 @@ window.MERCURY_PLAYLISTS = [
       "1995",
       "full album"
     ]
+  },
+  {
+    "title": "Yourself or Someone Like You",
+    "emoji": "🎵",
+    "category": "Albums",
+    "artist": "Matchbox Twenty",
+    "year": 1996,
+    "status": "known",
+    "description": "Matchbox Twenty — Yourself or Someone Like You (1996). Playlist source pending verification.",
+    "url": "",
+    "pinned": false,
+    "tags": [
+      "album",
+      "matchbox twenty",
+      "1996",
+      "known",
+      "playlist pending"
+    ]
+  },
+  {
+    "title": "Mad Season",
+    "emoji": "🎵",
+    "category": "Albums",
+    "artist": "Matchbox Twenty",
+    "year": 2000,
+    "status": "known",
+    "description": "Matchbox Twenty — Mad Season (2000). Playlist source pending verification.",
+    "url": "",
+    "pinned": false,
+    "tags": [
+      "album",
+      "matchbox twenty",
+      "2000",
+      "known",
+      "playlist pending"
+    ]
+  },
+  {
+    "title": "More Than You Think You Are",
+    "emoji": "🎵",
+    "category": "Albums",
+    "artist": "Matchbox Twenty",
+    "year": 2002,
+    "status": "known",
+    "description": "Matchbox Twenty — More Than You Think You Are (2002). Playlist source pending verification.",
+    "url": "",
+    "pinned": false,
+    "tags": [
+      "album",
+      "matchbox twenty",
+      "2002",
+      "known",
+      "playlist pending"
+    ]
+  },
+  {
+    "title": "...Something to Be",
+    "emoji": "🎵",
+    "category": "Albums",
+    "artist": "Rob Thomas",
+    "year": 2005,
+    "status": "recognized",
+    "description": "Rob Thomas — ...Something to Be (2005). Playlist source pending verification.",
+    "url": "",
+    "pinned": false,
+    "tags": [
+      "album",
+      "rob thomas",
+      "2005",
+      "recognized",
+      "playlist pending"
+    ]
+  },
+  {
+    "title": "Cradlesong",
+    "emoji": "🎵",
+    "category": "Albums",
+    "artist": "Rob Thomas",
+    "year": 2009,
+    "status": "recognized",
+    "description": "Rob Thomas — Cradlesong (2009). Playlist source pending verification.",
+    "url": "",
+    "pinned": false,
+    "tags": [
+      "album",
+      "rob thomas",
+      "2009",
+      "recognized",
+      "playlist pending"
+    ]
+  },
+  {
+    "title": "The Great Unknown",
+    "emoji": "🎵",
+    "category": "Albums",
+    "artist": "Rob Thomas",
+    "year": 2015,
+    "status": "recognized",
+    "description": "Rob Thomas — The Great Unknown (2015). Playlist source pending verification.",
+    "url": "",
+    "pinned": false,
+    "tags": [
+      "album",
+      "rob thomas",
+      "2015",
+      "recognized",
+      "playlist pending"
+    ]
+  },
+  {
+    "title": "Chip Tooth Smile",
+    "emoji": "🎵",
+    "category": "Albums",
+    "artist": "Rob Thomas",
+    "year": 2019,
+    "status": "recognized",
+    "description": "Rob Thomas — Chip Tooth Smile (2019). Playlist source pending verification.",
+    "url": "",
+    "pinned": false,
+    "tags": [
+      "album",
+      "rob thomas",
+      "2019",
+      "recognized",
+      "playlist pending"
+    ]
+  },
+  {
+    "title": "All Night Days",
+    "emoji": "🔎",
+    "category": "Albums",
+    "artist": "Rob Thomas",
+    "year": 2025,
+    "status": "discovery",
+    "description": "Rob Thomas — All Night Days (2025). Audition first.",
+    "url": "",
+    "pinned": false,
+    "tags": [
+      "album",
+      "rob thomas",
+      "2025",
+      "discovery",
+      "playlist pending"
+    ]
   }
 ];
