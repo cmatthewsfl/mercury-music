@@ -430,7 +430,7 @@ window.MERCURY_PLAYLISTS = [
     "year": 1996,
     "status": "known",
     "description": "Matchbox Twenty — Yourself or Someone Like You (1996). Playlist source pending verification.",
-    "url": "",
+    "url": "https://www.youtube.com/watch?v=GUa_AJa7uOc",
     "pinned": false,
     "tags": [
       "album",
