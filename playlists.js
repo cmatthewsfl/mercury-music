@@ -565,5 +565,23 @@ window.MERCURY_PLAYLISTS = [
       "discovery",
       "playlist pending"
     ]
+  },
+  {
+    "title": "The American",
+    "emoji": "🎵",
+    "category": "Albums",
+    "artist": "Angie Aparo",
+    "year": 2000,
+    "status": "discovery",
+    "description": "Angie Aparo — The American (2000). Album identified; verified YouTube full-album playlist pending.",
+    "url": "",
+    "pinned": false,
+    "tags": [
+      "album",
+      "angie aparo",
+      "the american",
+      "2000",
+      "playlist pending"
+    ]
   }
 ];
